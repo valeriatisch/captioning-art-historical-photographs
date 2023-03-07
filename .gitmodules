@@ -1,0 +1,4 @@
+[submodule "LAVIS"]
+	path = LAVIS
+	url = https://github.com/valeriatisch/LAVIS.git
+	branch = main

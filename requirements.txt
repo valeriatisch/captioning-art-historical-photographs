@@ -1,0 +1,14 @@
+PyYAML==6.0
+matplotlib==3.5.1
+mkwikidata==0.14
+nltk==3.7
+numpy==1.22.3
+pytest==7.1.2
+python_magic==0.4.27
+regex==2022.4.24
+requests==2.27.1
+scikit_learn==1.2.1
+scipy==1.8.0
+setuptools==59.5.0
+word_forms==2.1.0
+scikit-image=0.19.3 
