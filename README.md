@@ -176,18 +176,18 @@ All plots regarding the Artpedia dataset are saved in [artpedia/plots](https://g
 
 We enhanced the Artpedia dataset, so that in the end each image has the following attributes:
 
-| Attribute               | Description                                                                                                                             | Source    |
-|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:----------|
-| `title`                 | the title of the painting                                                                                                               | original  |
-| `img_url`               | the wikimedia url to the image where to download it                                                                                     | original  |
-| `year`                  | the year the painting was created                                                                                                       | original  |
-| `visual_sentences`      | a list of visual sentences describing the painting                                                                                      | original  |
-| `contextual_sentences`  | a list of contextual sentences describing the painting                                                                                  | original  |
-| `split`                 | training (`train`), validation (`val`) and test (`test`) split                                                                          | original  |
-| `got_img`               | `yes` or `no`, depending on whether the image could be downloaded                                                                       | new       |
-| `matching_scores`       | a list of matching scores between the image and each visual sentence in the same order the sentences are stored `visual_sentences`      | new       |
-| `cosine_similarities`   | a list of cosine similarities between the image and each visual sentence in the same order the sentences are stored `visual_sentences`  | new       |
-| `visual_sentences`      | the artist of the painting                                                                                                              | new       |
+| Attribute              | Description                                                                                                                             | Source    |
+|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:----------|
+| `title`                | the title of the painting                                                                                                               | original  |
+| `img_url`              | the wikimedia url to the image where to download it                                                                                     | original  |
+| `year`                 | the year the painting was created                                                                                                       | original  |
+| `visual_sentences`     | a list of visual sentences describing the painting                                                                                      | original  |
+| `contextual_sentences` | a list of contextual sentences describing the painting                                                                                  | original  |
+| `split`                | training (`train`), validation (`val`) and test (`test`) split                                                                          | original  |
+| `got_img`              | `yes` or `no`, depending on whether the image could be downloaded                                                                       | new       |
+| `matching_scores`      | a list of matching scores between the image and each visual sentence in the same order the sentences are stored `visual_sentences`      | new       |
+| `cosine_similarities`  | a list of cosine similarities between the image and each visual sentence in the same order the sentences are stored `visual_sentences`  | new       |
+| `artist`               | the artist of the painting                                                                                                              | new       |
 
 The enhanced dataset can be found [here](https://github.com/valeriatisch/captioning-art-photographs-blip/blob/main/artpedia/new_artpedia.json).
 
